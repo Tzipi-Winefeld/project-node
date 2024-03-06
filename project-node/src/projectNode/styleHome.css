@@ -1,0 +1,115 @@
+
+.nav {
+    text-align: center;
+    background-color: rgb(224, 224, 224,1);
+    /* //rgb(224, 224, 224,1) */
+    height: 3rem;
+    width: 100vw;
+    font-size: large;
+    padding: 1rem 0;
+    justify-content: left;
+    text-align: left;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    color: rgb(0, 0, 0);
+    margin: 2rem;
+    text-decoration: none;
+}
+.link , .nav > div {
+    display: flex;
+    align-items: center;
+}
+
+.link:hover {
+    color:dimgrey;
+    cursor: pointer;
+}
+
+/*הפעיל link שריאקט תזהה אותו ותפעיל אותו עבור ה  */
+.active {
+    color:rgb(205, 123, 16);
+}
+
+
+.boxSearch{
+    width: 50%;
+}
+.button{
+    height: 55px;
+}
+.x1{
+    border: black solid 1px;
+    margin-bottom: 2%;
+    width: 70%;
+    margin-left: 15%;
+    /* margin-left: 30%; */
+    margin-right: 0%;
+    text-align: right;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.x2{
+    width: 25%;
+    margin-left: 0%;
+}
+.li{
+    border: none;
+    /* background-color: aliceblue; */
+    background-color: white;
+}
+.li:hover{
+    color: rgba(72, 72, 219, 0.58);
+}
+.select{
+    width: 50%;
+    height: 53px;
+    /* border-radius: 3%; */
+    /* border-color: rgb(0, 149, 255); */
+    /* border-style: double; */
+    color: cornflowerblue;
+    /* border: none; */
+    border-bottom: none;
+    background-color: rgb(236, 235, 235);
+    margin-right: 10%;
+    margin-left: 15%;
+}
+.select:hover{
+    background-color:rgb(243, 248, 248);
+}
+.bu{
+    color: black;
+}
+.big{
+    margin-top: 5%;
+    margin-left: 35%;
+}
+.alert{
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+.x5{
+    width: 50%;
+    margin-left: 45%;
+    border: none;
+}
+.all1{
+    background-color: rgb(236, 236, 236);
+    width: 85%;
+    margin-left: 4%;
+    /* padding: 3%; */
+    /* height: 400px; */
+}
+.tora{
+    width: 90%;
+    margin-left: 5%;
+    padding: 2%;
+    border: black solid 1px;
+}
+.strong{
+    color: red;
+}
